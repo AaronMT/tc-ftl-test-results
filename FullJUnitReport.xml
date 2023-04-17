@@ -1,0 +1,1482 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="1" errors="0" skipped="0" time="185.182" timestamp="2023-04-14T15:12:35" hostname="localhost">
+    <testcase name="pdfFindInPageTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="39.852" flaky="true">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.mozilla.fenix.ui.robots.BrowserRobot.verifyUrl(BrowserRobot.kt:81)
+	at org.mozilla.fenix.ui.NavigationToolbarTest$pdfFindInPageTest$2.invoke(NavigationToolbarTest.kt:198)
+	at org.mozilla.fenix.ui.NavigationToolbarTest$pdfFindInPageTest$2.invoke(NavigationToolbarTest.kt:196)
+	at org.mozilla.fenix.ui.robots.NavigationToolbarRobot$Transition.enterURLAndEnterToBrowser(NavigationToolbarRobot.kt:140)
+	at org.mozilla.fenix.ui.NavigationToolbarTest.pdfFindInPageTest(NavigationToolbarTest.kt:196)
+
+    </failure>
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.84b4f6c6f5baff9/testcases/4</webLink>
+    </testcase>
+    <testcase name="addBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="40.744">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.84b4f6c6f5baff9/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyRemoveTopSiteFromMainMenu" classname="org.mozilla.fenix.ui.TopSitesTest" time="76.596">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.84b4f6c6f5baff9/testcases/2</webLink>
+    </testcase>
+    <testcase name="privacyProtectionByDefaultCardTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="27.990">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.84b4f6c6f5baff9/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="282.863" timestamp="2023-04-14T15:11:43" hostname="localhost">
+    <testcase name="openHistoryInNewTabTest" classname="org.mozilla.fenix.ui.HistoryTest" time="52.932">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.4afc2e9d3173334d/testcases/1</webLink>
+    </testcase>
+    <testcase name="switchLanguageTest" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="82.512">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.4afc2e9d3173334d/testcases/2</webLink>
+    </testcase>
+    <testcase name="goToHomeScreenBottomToolbarPrivateModeTest" classname="org.mozilla.fenix.ui.SmokeTest" time="40.460">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.4afc2e9d3173334d/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextOpenLinkPrivateTab" classname="org.mozilla.fenix.ui.ContextMenusTest" time="106.959">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.4afc2e9d3173334d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="1" errors="0" skipped="0" time="238.060" timestamp="2023-04-14T15:13:10" hostname="localhost">
+    <testcase name="verifyEditedCardIsSavedTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="98.564" flaky="true">
+      <failure>Test instrumentation process crashed. Check org.mozilla.fenix.ui.CreditCardAutofillTest#verifyEditedCardIsSavedTest.txt for details
+
+    </failure>
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.233eb9653849a84/testcases/1</webLink>
+    </testcase>
+    <testcase name="saveAndOpenPdfTest" classname="org.mozilla.fenix.ui.DownloadTest" time="46.590">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.233eb9653849a84/testcases/2</webLink>
+    </testcase>
+    <testcase name="toggleSearchEnginesShortcutListTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="32.827">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.233eb9653849a84/testcases/3</webLink>
+    </testcase>
+    <testcase name="addPrivateBrowsingShortcut" classname="org.mozilla.fenix.ui.SettingsPrivateBrowsingTest" time="60.079">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.233eb9653849a84/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="52.920" timestamp="2023-04-14T15:11:35" hostname="localhost">
+    <testcase name="openHistoryInPrivateTabTest" classname="org.mozilla.fenix.ui.HistoryTest" time="18.493">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.be64ce1e1c8394af/testcases/1</webLink>
+    </testcase>
+    <testcase name="settingsGeneralItemsTests" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="11.915">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.be64ce1e1c8394af/testcases/2</webLink>
+    </testcase>
+    <testcase name="goToHomeScreenBottomToolbarTest" classname="org.mozilla.fenix.ui.SmokeTest" time="8.761">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.be64ce1e1c8394af/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextOpenLinkNewTab" classname="org.mozilla.fenix.ui.ContextMenusTest" time="13.751">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.be64ce1e1c8394af/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="88.174" timestamp="2023-04-14T15:11:30" hostname="localhost">
+    <testcase name="jumpBackInOptionTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="37.939">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.73f1fd25895d87ec/testcases/1</webLink>
+    </testcase>
+    <testcase name="privateBrowsingUseAppWhileTabIsCrashedTest" classname="org.mozilla.fenix.ui.CrashReportingTest" time="20.803">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.73f1fd25895d87ec/testcases/2</webLink>
+    </testcase>
+    <testcase name="testStrictVisitSheetDetails" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="16.425">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.73f1fd25895d87ec/testcases/3</webLink>
+    </testcase>
+    <testcase name="rememberAllowMicrophonePermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="13.007">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.73f1fd25895d87ec/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="172.739" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="verifyRecentlyVisitedOptionTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="42.282">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f4333f4bb8f90213/testcases/1</webLink>
+    </testcase>
+    <testcase name="disableCustomTrackingProtectionOptionsTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="52.884">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f4333f4bb8f90213/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyConfirmCreditCardUpdatePromptTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="71.273">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f4333f4bb8f90213/testcases/3</webLink>
+    </testcase>
+    <testcase name="blockLocationPermissionsTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="6.300">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f4333f4bb8f90213/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="283.492" timestamp="2023-04-14T15:11:56" hostname="localhost">
+    <testcase name="verifyAutofillToggleTest" classname="org.mozilla.fenix.ui.LoginsTest" time="100.047">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.65baf63a8645a674/testcases/1</webLink>
+    </testcase>
+    <testcase name="alwaysOpenLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="66.128">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.65baf63a8645a674/testcases/2</webLink>
+    </testcase>
+    <testcase name="blockMalwarePageTest" classname="org.mozilla.fenix.ui.BrowsingErrorPagesTest" time="33.550">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.65baf63a8645a674/testcases/3</webLink>
+    </testcase>
+    <testcase name="closeAllTabsTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="83.767">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.65baf63a8645a674/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="85.995" timestamp="2023-04-14T15:11:30" hostname="localhost">
+    <testcase name="cancelCreateBookmarkFolderTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="30.858">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ac0adcbcfeae66d/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyOpenTopSitePrivateTab" classname="org.mozilla.fenix.ui.TopSitesTest" time="15.238">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ac0adcbcfeae66d/testcases/2</webLink>
+    </testcase>
+    <testcase name="toolbarTapDoesntDismissOnboardingTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="12.937">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ac0adcbcfeae66d/testcases/3</webLink>
+    </testcase>
+    <testcase name="goBackTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="26.962">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ac0adcbcfeae66d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="65.995" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="editBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="36.203">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.525e672bfb70870a/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuFindInPageTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="10.848">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.525e672bfb70870a/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewPageMenuDetection" classname="org.mozilla.fenix.ui.ReaderViewTest" time="6.816">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.525e672bfb70870a/testcases/3</webLink>
+    </testcase>
+    <testcase name="shareSelectedPDFTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="12.128">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.525e672bfb70870a/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="89.913" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="externalLinkTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="9.419">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc1243dd296a3f43/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddressAutofillToggleTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="71.793">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc1243dd296a3f43/testcases/2</webLink>
+    </testcase>
+    <testcase name="homeScreenNimbusEventsTest" classname="org.mozilla.fenix.ui.NimbusEventTest" time="4.167">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc1243dd296a3f43/testcases/3</webLink>
+    </testcase>
+    <testcase name="dismissOnboardingUsingBookmarksTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="4.534">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc1243dd296a3f43/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="1" flakes="0" errors="0" skipped="0" time="284.766" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="verifyCookieBannerReductionTest" classname="org.mozilla.fenix.ui.CookieBannerReductionTest" time="116.566">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.mozilla.fenix.helpers.MatcherHelper.assertItemWithResIdExists(MatcherHelper.kt:51)
+	at org.mozilla.fenix.ui.robots.BrowserRobot.verifyCookieBannerExists(BrowserRobot.kt:1019)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionTest$3.invoke(CookieBannerReductionTest.kt:27)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionTest$3.invoke(CookieBannerReductionTest.kt:25)
+	at org.mozilla.fenix.ui.robots.NavigationToolbarRobot$Transition.enterURLAndEnterToBrowser(NavigationToolbarRobot.kt:140)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest.verifyCookieBannerReductionTest(CookieBannerReductionTest.kt:25)
+
+    </failure>
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.mozilla.fenix.helpers.MatcherHelper.assertItemWithResIdExists(MatcherHelper.kt:51)
+	at org.mozilla.fenix.ui.robots.BrowserRobot.verifyCookieBannerExists(BrowserRobot.kt:1019)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionTest$3.invoke(CookieBannerReductionTest.kt:27)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionTest$3.invoke(CookieBannerReductionTest.kt:25)
+	at org.mozilla.fenix.ui.robots.NavigationToolbarRobot$Transition.enterURLAndEnterToBrowser(NavigationToolbarRobot.kt:140)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest.verifyCookieBannerReductionTest(CookieBannerReductionTest.kt:25)
+
+    </failure>
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b757b26ff9d9dde7/testcases/4</webLink>
+    </testcase>
+    <testcase name="trackingProtectionSwitchEnabledRemovesExceptionTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="72.062">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b757b26ff9d9dde7/testcases/1</webLink>
+    </testcase>
+    <testcase name="turnOffHttpsOnlyModeTest" classname="org.mozilla.fenix.ui.SettingsHTTPSOnlyModeTest" time="85.999">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b757b26ff9d9dde7/testcases/2</webLink>
+    </testcase>
+    <testcase name="rememberBlockCameraPermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="10.139">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b757b26ff9d9dde7/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="51.138" timestamp="2023-04-14T15:11:30" hostname="localhost">
+    <testcase name="verifyCloseMenuTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="8.377">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6a1eb1f6978aa15e/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyEditModeDismissalDoesNotSaveLoginCredentialsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="23.284">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6a1eb1f6978aa15e/testcases/2</webLink>
+    </testcase>
+    <testcase name="settingsAddonsItemsTest" classname="org.mozilla.fenix.ui.SettingsAddonsTest" time="5.244">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6a1eb1f6978aa15e/testcases/3</webLink>
+    </testcase>
+    <testcase name="openNewTabTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="14.233">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6a1eb1f6978aa15e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="129.047" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="clearTrackingProtectionExceptionsTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="59.852">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca695243aabb5f7c/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyCreditCardCannotBeSavedWithoutNameOnCardTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="16.390">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca695243aabb5f7c/testcases/2</webLink>
+    </testcase>
+    <testcase name="allowLocationPermissionsTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="6.931">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca695243aabb5f7c/testcases/3</webLink>
+    </testcase>
+    <testcase name="settingsPrivacyItemsTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="45.874">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca695243aabb5f7c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="111.261" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="cancelClockFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="25.580">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b99fc0a49d6cecd4/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyFormFieldCanBeFilledManuallyTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="59.381">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b99fc0a49d6cecd4/testcases/2</webLink>
+    </testcase>
+    <testcase name="dismissOnboardingWithPageLoadTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="17.162">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b99fc0a49d6cecd4/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyInsecurePageSecuritySubMenuTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="9.138">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.b99fc0a49d6cecd4/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="199.325" timestamp="2023-04-14T15:12:30" hostname="localhost">
+    <testcase name="verifySaveCreditCardFromFormTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="70.694">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c8a594abb4baba3d/testcases/1</webLink>
+    </testcase>
+    <testcase name="manageDownloadsInDownloadsMenuTest" classname="org.mozilla.fenix.ui.DownloadTest" time="47.961">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c8a594abb4baba3d/testcases/2</webLink>
+    </testcase>
+    <testcase name="searchSettingsItemsTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="15.475">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c8a594abb4baba3d/testcases/3</webLink>
+    </testcase>
+    <testcase name="openExternalLinksInPrivateTest" classname="org.mozilla.fenix.ui.SettingsPrivateBrowsingTest" time="65.195">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c8a594abb4baba3d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="134.566" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="createFirstCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="19.874">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ff47767af930ea07/testcases/1</webLink>
+    </testcase>
+    <testcase name="updateSavedLoginTest" classname="org.mozilla.fenix.ui.LoginsTest" time="40.335">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ff47767af930ea07/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifySponsoredShortcutsListTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="37.151">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ff47767af930ea07/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateBrowsingAlwaysOpenLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="37.206">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ff47767af930ea07/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="83.894" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="createBookmarkFolderTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="6.278">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.de36c66060f6d61d/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyPageMainMenuItemsTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="6.089">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.de36c66060f6d61d/testcases/2</webLink>
+    </testcase>
+    <testcase name="setDesktopSiteBeforePageLoadTest" classname="org.mozilla.fenix.ui.ThreeDotMenuMainTest" time="58.691">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.de36c66060f6d61d/testcases/3</webLink>
+    </testcase>
+    <testcase name="telephoneLinkPWATest" classname="org.mozilla.fenix.ui.PwaTest" time="12.836">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.de36c66060f6d61d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="46.363" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="setColorFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="10.468">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f0cacc0a7fda6f36/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddAddressViewTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="28.640">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f0cacc0a7fda6f36/testcases/2</webLink>
+    </testcase>
+    <testcase name="upgradingUsersOnboardingScreensTest" classname="org.mozilla.fenix.ui.OnboardingFeaturesTest" time="4.476">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f0cacc0a7fda6f36/testcases/3</webLink>
+    </testcase>
+    <testcase name="testAllMessageIntegrity" classname="org.mozilla.fenix.ui.NimbusMessagingMessageTest" time="2.779">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f0cacc0a7fda6f36/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="88.068" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="cancelColorFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="26.584">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2c2d42d8a081eeb3/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyEditAddressViewTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="48.557">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2c2d42d8a081eeb3/testcases/2</webLink>
+    </testcase>
+    <testcase name="dismissOnboardingUsingSettingsTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="4.779">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2c2d42d8a081eeb3/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifySecurePageSecuritySubMenuTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="8.148">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2c2d42d8a081eeb3/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="212.645" timestamp="2023-04-14T15:11:34" hostname="localhost">
+    <testcase name="setAndClearClockFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="38.142">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c63317b30d731580/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddressAutofillSelectionTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="132.164">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c63317b30d731580/testcases/2</webLink>
+    </testcase>
+    <testcase name="testNimbusMessageIsDisplayed" classname="org.mozilla.fenix.ui.NimbusMessagingHomescreenTest" time="30.314">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c63317b30d731580/testcases/3</webLink>
+    </testcase>
+    <testcase name="upgradingUsersOnboardingSignInButtonTest" classname="org.mozilla.fenix.ui.OnboardingFeaturesTest" time="12.025">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c63317b30d731580/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="174.719" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="verifyAddLoginManuallyTest" classname="org.mozilla.fenix.ui.LoginsTest" time="44.332">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.630fa9ad9b6266f5/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifySponsoredShortcutsListWithEightPinnedSitesTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="88.279">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.630fa9ad9b6266f5/testcases/2</webLink>
+    </testcase>
+    <testcase name="neverOpenLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="35.968">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.630fa9ad9b6266f5/testcases/3</webLink>
+    </testcase>
+    <testcase name="blockUnwantedSoftwarePageTest" classname="org.mozilla.fenix.ui.BrowsingErrorPagesTest" time="6.140">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.630fa9ad9b6266f5/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="197.004" timestamp="2023-04-14T15:11:28" hostname="localhost">
+    <testcase name="verifyAddTabButtonOfCollectionMenu" classname="org.mozilla.fenix.ui.CollectionTest" time="27.673">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36c6740ff879340d/testcases/1</webLink>
+    </testcase>
+    <testcase name="deleteCachedFilesTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="72.437">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36c6740ff879340d/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyCustomizeHomepageTest" classname="org.mozilla.fenix.ui.HomeScreenTest" time="81.288">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36c6740ff879340d/testcases/3</webLink>
+    </testcase>
+    <testcase name="openRecentlyClosedItemTest" classname="org.mozilla.fenix.ui.SmokeTest" time="15.606">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36c6740ff879340d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="46.894" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="emailLinkTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="8.492">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ce9ceee2887a6bfb/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAutofillAddressSectionTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="24.235">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ce9ceee2887a6bfb/testcases/2</webLink>
+    </testcase>
+    <testcase name="dismissOnboardingUsingHelpTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="8.029">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ce9ceee2887a6bfb/testcases/3</webLink>
+    </testcase>
+    <testcase name="visitURLTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="6.138">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ce9ceee2887a6bfb/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="78.818" timestamp="2023-04-14T15:11:52" hostname="localhost">
+    <testcase name="undoDeleteBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="20.271">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.70a70cdc31ab5746/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyLoginWithNoUserNameCanBeSavedTest" classname="org.mozilla.fenix.ui.LoginsTest" time="26.971">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.70a70cdc31ab5746/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyRateOnGooglePlayRedirect" classname="org.mozilla.fenix.ui.SettingsAboutTest" time="22.200">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.70a70cdc31ab5746/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyOpenTabDetails" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="9.376">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.70a70cdc31ab5746/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="170.905" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="openAllInTabsTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="126.577">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.33e11ae750976ce4/testcases/1</webLink>
+    </testcase>
+    <testcase name="mainMenuReportSiteIssueTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="11.396">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.33e11ae750976ce4/testcases/2</webLink>
+    </testcase>
+    <testcase name="defaultSearchCodeGoogleUS" classname="org.mozilla.fenix.ui.SearchTest" time="6.836">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.33e11ae750976ce4/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateSelectAndSearchTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="26.096">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.33e11ae750976ce4/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="78.593" timestamp="2023-04-14T15:11:33" hostname="localhost">
+    <testcase name="multipleBookmarkDeletionsTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="21.418">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bcb3d762ed24cfc1/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuBookmarksItemTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="10.544">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bcb3d762ed24cfc1/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewToggle" classname="org.mozilla.fenix.ui.ReaderViewTest" time="16.245">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bcb3d762ed24cfc1/testcases/3</webLink>
+    </testcase>
+    <testcase name="selectAndSearchTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="30.386">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bcb3d762ed24cfc1/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="172.195" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="blockCookiesStorageAccessTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="29.022">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8bad6de624eeb101/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyCreditCardsAutofillToggleTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="62.181">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8bad6de624eeb101/testcases/2</webLink>
+    </testcase>
+    <testcase name="redirectToAppPermissionsSystemSettingsTest" classname="org.mozilla.fenix.ui.SettingsSitePermissionsTest" time="67.236">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8bad6de624eeb101/testcases/3</webLink>
+    </testcase>
+    <testcase name="sitePermissionsItemsTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="13.756">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8bad6de624eeb101/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="273.485" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="navigateBookmarksFoldersTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="111.314">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6989cfea4c2cc50c/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuAddToCollectionTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.406">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6989cfea4c2cc50c/testcases/2</webLink>
+    </testcase>
+    <testcase name="defaultSearchCodeBingUS" classname="org.mozilla.fenix.ui.SearchTest" time="21.267">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6989cfea4c2cc50c/testcases/3</webLink>
+    </testcase>
+    <testcase name="selectAllAndCopyTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="132.498">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6989cfea4c2cc50c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="132.660" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="cancelCalendarFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="25.214">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a766542947ab3359/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyManageAddressesPromptOptionTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="83.827">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a766542947ab3359/testcases/2</webLink>
+    </testcase>
+    <testcase name="firstRunScreenTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="16.290">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a766542947ab3359/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyClearCookiesFromQuickSettingsTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="7.329">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a766542947ab3359/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="241.361" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="verifyManageCreditCardsPromptOptionTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="78.326">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.448f26704aa22232/testcases/1</webLink>
+    </testcase>
+    <testcase name="pauseResumeCancelDownloadTest" classname="org.mozilla.fenix.ui.DownloadTest" time="29.362">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.448f26704aa22232/testcases/2</webLink>
+    </testcase>
+    <testcase name="toggleSearchAutocomplete" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="66.503">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.448f26704aa22232/testcases/3</webLink>
+    </testcase>
+    <testcase name="launchLinksInPrivateToggleOffStateDoesntChangeTest" classname="org.mozilla.fenix.ui.SettingsPrivateBrowsingTest" time="67.170">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.448f26704aa22232/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="65.926" timestamp="2023-04-14T15:11:28" hostname="localhost">
+    <testcase name="visitedUrlHistoryTest" classname="org.mozilla.fenix.ui.HistoryTest" time="9.434">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d7525ad9eb106e5e/testcases/1</webLink>
+    </testcase>
+    <testcase name="deleteTabsDataWithNoOpenTabsTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="21.071">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d7525ad9eb106e5e/testcases/2</webLink>
+    </testcase>
+    <testcase name="mainMenuOpenInAppTest" classname="org.mozilla.fenix.ui.SmokeTest" time="8.499">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d7525ad9eb106e5e/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextCopyLink" classname="org.mozilla.fenix.ui.ContextMenusTest" time="26.922">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d7525ad9eb106e5e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="146.905" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="swipeRightToRemoveTabFromCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="19.836">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.53d196da93da7ab9/testcases/1</webLink>
+    </testcase>
+    <testcase name="deleteBrowsingDataOptionStatesTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="59.360">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.53d196da93da7ab9/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyPocketLearnMoreLinkTest" classname="org.mozilla.fenix.ui.HomeScreenTest" time="20.987">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.53d196da93da7ab9/testcases/3</webLink>
+    </testcase>
+    <testcase name="selectSearchEnginesShortcutTest" classname="org.mozilla.fenix.ui.SmokeTest" time="46.722">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.53d196da93da7ab9/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="62.280" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="undoDeleteHistoryItemTest" classname="org.mozilla.fenix.ui.HistoryTest" time="9.655">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.426ec5441b13431e/testcases/1</webLink>
+    </testcase>
+    <testcase name="changeAccessibiltySettings" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="20.486">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.426ec5441b13431e/testcases/2</webLink>
+    </testcase>
+    <testcase name="goToHomeScreenTopToolbarTest" classname="org.mozilla.fenix.ui.SmokeTest" time="17.239">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.426ec5441b13431e/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextMixedVariations" classname="org.mozilla.fenix.ui.ContextMenusTest" time="14.900">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.426ec5441b13431e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="65.952" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="swipeLeftToRemoveTabFromCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="19.539">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.815580203a7c605e/testcases/1</webLink>
+    </testcase>
+    <testcase name="loginsAndPasswordsSettingsItemsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="5.305">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.815580203a7c605e/testcases/2</webLink>
+    </testcase>
+    <testcase name="swipeToolbarGesturePreferenceOffTest" classname="org.mozilla.fenix.ui.SettingsCustomizeTest" time="24.593">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.815580203a7c605e/testcases/3</webLink>
+    </testcase>
+    <testcase name="shareTabsFromTabsTrayTest" classname="org.mozilla.fenix.ui.SmokeTest" time="16.515">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.815580203a7c605e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="206.934" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="verifyPocketOptionTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="43.421">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.5fd32fa7ba54ec35/testcases/1</webLink>
+    </testcase>
+    <testcase name="testDisableETPExceptionToggle" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="34.172">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.5fd32fa7ba54ec35/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyCancelCreditCardUpdatePromptTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="80.407">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.5fd32fa7ba54ec35/testcases/3</webLink>
+    </testcase>
+    <testcase name="blockNotificationsPermissionPromptTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="48.934">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.5fd32fa7ba54ec35/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="109.294" timestamp="2023-04-14T15:11:36" hostname="localhost">
+    <testcase name="verifyEditCreditCardRedirectionToAutofillAfterInterruptionTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="21.050">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfb7be07b9e9b952/testcases/1</webLink>
+    </testcase>
+    <testcase name="testCloseDownloadPrompt" classname="org.mozilla.fenix.ui.DownloadTest" time="15.549">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfb7be07b9e9b952/testcases/2</webLink>
+    </testcase>
+    <testcase name="toggleShowClipboardSuggestionsTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="56.440">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfb7be07b9e9b952/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyUsageAndTechnicalDataToggleTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="16.255">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfb7be07b9e9b952/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="68.497" timestamp="2023-04-14T15:11:32" hostname="localhost">
+    <testcase name="customTabDownloadTest" classname="org.mozilla.fenix.ui.CustomTabsTest" time="10.877">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.fa924e4d3ce381b1/testcases/1</webLink>
+    </testcase>
+    <testcase name="customTabShareTextTest" classname="org.mozilla.fenix.ui.CustomTabsTest" time="14.248">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.fa924e4d3ce381b1/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteAllSearchEnginesTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="12.427">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.fa924e4d3ce381b1/testcases/3</webLink>
+    </testcase>
+    <testcase name="allowSearchSuggestionsInPrivateModeOnboardingTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="30.945">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.fa924e4d3ce381b1/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="42.780" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="cantSelectDesktopFoldersTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="8.692">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.71fb0afc85a2e1d6/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyDefaultTopSitesList" classname="org.mozilla.fenix.ui.TopSitesTest" time="5.722">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.71fb0afc85a2e1d6/testcases/2</webLink>
+    </testcase>
+    <testcase name="appLikeExperiencePWATest" classname="org.mozilla.fenix.ui.PwaTest" time="12.855">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.71fb0afc85a2e1d6/testcases/3</webLink>
+    </testcase>
+    <testcase name="videoPlaybackSystemNotificationTest" classname="org.mozilla.fenix.ui.MediaNotificationTest" time="15.511">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.71fb0afc85a2e1d6/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="157.681" timestamp="2023-04-14T15:11:37" hostname="localhost">
+    <testcase name="verifyAlphabeticalLoginSortingOptionTest" classname="org.mozilla.fenix.ui.LoginsTest" time="53.553">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2ae145740ebd647e/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifySponsoredShortcutsListWithSevenPinnedSitesTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="61.816">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2ae145740ebd647e/testcases/2</webLink>
+    </testcase>
+    <testcase name="askBeforeOpeningLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="36.695">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2ae145740ebd647e/testcases/3</webLink>
+    </testcase>
+    <testcase name="blockPhishingPageTest" classname="org.mozilla.fenix.ui.BrowsingErrorPagesTest" time="5.617">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2ae145740ebd647e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="92.280" timestamp="2023-04-14T15:11:22" hostname="localhost">
+    <testcase name="recentBookmarksOptionTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="32.974">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2d7930d52efb11/testcases/1</webLink>
+    </testcase>
+    <testcase name="testStandardETPVisitSheetDetails" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="31.503">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2d7930d52efb11/testcases/2</webLink>
+    </testcase>
+    <testcase name="cancelDeleteSavedCreditCardUsingMenuButtonTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.573">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2d7930d52efb11/testcases/3</webLink>
+    </testcase>
+    <testcase name="rememberAllowCameraPermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="10.230">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2d7930d52efb11/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="232.129" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="openAllInPrivateTabsTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="69.688">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.659e1326c6cc66f0/testcases/1</webLink>
+    </testcase>
+    <testcase name="mainMenuShareButtonTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="7.443">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.659e1326c6cc66f0/testcases/2</webLink>
+    </testcase>
+    <testcase name="defaultSearchCodeDuckDuckGoUS" classname="org.mozilla.fenix.ui.SearchTest" time="19.604">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.659e1326c6cc66f0/testcases/3</webLink>
+    </testcase>
+    <testcase name="selectAllAndCopyPDFTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="135.394">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.659e1326c6cc66f0/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="60.473" timestamp="2023-04-14T15:11:28" hostname="localhost">
+    <testcase name="multipleSelectionShareButtonTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="17.301">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.626972baf043d693/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuAddonsTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.237">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.626972baf043d693/testcases/2</webLink>
+    </testcase>
+    <testcase name="clearSearchTest" classname="org.mozilla.fenix.ui.SearchTest" time="4.957">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.626972baf043d693/testcases/3</webLink>
+    </testcase>
+    <testcase name="selectAndSearchPDFTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="29.978">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.626972baf043d693/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="29.181" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="noHistoryItemsInCacheTest" classname="org.mozilla.fenix.ui.HistoryTest" time="4.424">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c53321abcf3ff783/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyHomepageOptionSummaryUpdatesTest" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="8.435">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c53321abcf3ff783/testcases/2</webLink>
+    </testcase>
+    <testcase name="emptyTabsTrayViewPrivateBrowsingTest" classname="org.mozilla.fenix.ui.SmokeTest" time="4.278">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c53321abcf3ff783/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextSaveImage" classname="org.mozilla.fenix.ui.ContextMenusTest" time="12.044">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c53321abcf3ff783/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="1" errors="0" skipped="0" time="221.741" timestamp="2023-04-14T15:12:43" hostname="localhost">
+    <testcase name="scanButtonDenyPermissionTest" classname="org.mozilla.fenix.ui.SearchTest" time="14.931" flaky="true">
+      <failure>java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.click()' on a null object reference
+	at org.mozilla.fenix.helpers.TestHelper.denyPermission(TestHelper.kt:377)
+	at org.mozilla.fenix.ui.SearchTest$scanButtonDenyPermissionTest$2.invoke(SearchTest.kt:99)
+	at org.mozilla.fenix.ui.SearchTest$scanButtonDenyPermissionTest$2.invoke(SearchTest.kt:97)
+	at org.mozilla.fenix.ui.robots.HomeScreenRobot$Transition.openSearch(HomeScreenRobot.kt:576)
+	at org.mozilla.fenix.ui.SearchTest.scanButtonDenyPermissionTest(SearchTest.kt:97)
+
+    </failure>
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.605b134af572637b/testcases/3</webLink>
+    </testcase>
+    <testcase name="openBookmarkInPrivateTabTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="50.662">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.605b134af572637b/testcases/1</webLink>
+    </testcase>
+    <testcase name="mainMenuForceRefreshTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="27.041">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.605b134af572637b/testcases/2</webLink>
+    </testcase>
+    <testcase name="copyTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="129.107">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.605b134af572637b/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="146.491" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="verifyStateFieldUpdatesInAccordanceWithCountryFieldTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="20.190">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e5d8ce7216007280/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyRenameTopSite" classname="org.mozilla.fenix.ui.TopSitesTest" time="45.434">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e5d8ce7216007280/testcases/2</webLink>
+    </testcase>
+    <testcase name="pickYourToolbarPlacementCardTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="19.760">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e5d8ce7216007280/testcases/3</webLink>
+    </testcase>
+    <testcase name="swipeToSwitchTabInRTLTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="61.107">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e5d8ce7216007280/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="145.572" timestamp="2023-04-14T15:11:28" hostname="localhost">
+    <testcase name="copyBookmarkURLTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="85.444">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ebf3fcb18872421/testcases/1</webLink>
+    </testcase>
+    <testcase name="addAndRemoveMostViewedTopSiteTest" classname="org.mozilla.fenix.ui.TopSitesTest" time="21.533">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ebf3fcb18872421/testcases/2</webLink>
+    </testcase>
+    <testcase name="saveLoginsInPWATest" classname="org.mozilla.fenix.ui.PwaTest" time="23.438">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ebf3fcb18872421/testcases/3</webLink>
+    </testcase>
+    <testcase name="audioPlaybackSystemNotificationTest" classname="org.mozilla.fenix.ui.MediaNotificationTest" time="15.157">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1ebf3fcb18872421/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="59.892" timestamp="2023-04-14T15:11:32" hostname="localhost">
+    <testcase name="deleteMultipleSelectionTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="29.006">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4fe2833c585fb64/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuHistoryItemTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.855">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4fe2833c585fb64/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewAppearanceFontToggle" classname="org.mozilla.fenix.ui.ReaderViewTest" time="10.907">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4fe2833c585fb64/testcases/3</webLink>
+    </testcase>
+    <testcase name="shareSelectedTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="11.124">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4fe2833c585fb64/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="65.584" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="createSecondCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="20.685">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f2280ba5c7d84f9a/testcases/1</webLink>
+    </testcase>
+    <testcase name="syncLoginsMenuItemsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="5.880">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f2280ba5c7d84f9a/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifySponsoredShortcutsDetailsTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="2.342">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f2280ba5c7d84f9a/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateBrowsingAskBeforeOpeningLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="36.677">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f2280ba5c7d84f9a/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="119.726" timestamp="2023-04-14T15:11:32" hostname="localhost">
+    <testcase name="openSelectionInPrivateTabTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="21.683">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c4d508b4276a5ec4/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyNeverSaveLoginOptionTest" classname="org.mozilla.fenix.ui.LoginsTest" time="43.543">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c4d508b4276a5ec4/testcases/2</webLink>
+    </testcase>
+    <testcase name="setDefaultSearchEngineFromShortcutsTest" classname="org.mozilla.fenix.ui.SearchTest" time="35.211">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c4d508b4276a5ec4/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyUndoSnackBarTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="19.289">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c4d508b4276a5ec4/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="82.007" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="customTabsSaveLoginTest" classname="org.mozilla.fenix.ui.CustomTabsTest" time="18.033">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c40974fe68674758/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifySavedCreditCardsRedirectionToAutofillAfterInterruptionTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="15.469">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c40974fe68674758/testcases/2</webLink>
+    </testcase>
+    <testcase name="editCustomSearchEngineTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="20.919">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c40974fe68674758/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyPrivateBrowsingMenuItemsTest" classname="org.mozilla.fenix.ui.SettingsPrivateBrowsingTest" time="27.586">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c40974fe68674758/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="112.227" timestamp="2023-04-14T15:11:38" hostname="localhost">
+    <testcase name="verifyRecentlyClosedTabsListTest" classname="org.mozilla.fenix.ui.HistoryTest" time="20.160">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d6cb01d13ade2c04/testcases/1</webLink>
+    </testcase>
+    <testcase name="settingsDeveloperToolsItemsTest" classname="org.mozilla.fenix.ui.SettingsDeveloperToolsTest" time="20.086">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d6cb01d13ade2c04/testcases/2</webLink>
+    </testcase>
+    <testcase name="mainMenuInstallPWATest" classname="org.mozilla.fenix.ui.SmokeTest" time="11.169">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d6cb01d13ade2c04/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextCopyLinkNotDisplayedAfterApplied" classname="org.mozilla.fenix.ui.ContextMenusTest" time="60.812">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d6cb01d13ade2c04/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="139.896" timestamp="2023-04-14T15:11:30" hostname="localhost">
+    <testcase name="undoDeleteCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="22.217">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36efc9cf0a41a20a/testcases/1</webLink>
+    </testcase>
+    <testcase name="deleteBrowsingHistoryAndSiteDataTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="68.017">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36efc9cf0a41a20a/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyJumpBackInSectionTest" classname="org.mozilla.fenix.ui.HomeScreenTest" time="39.974">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36efc9cf0a41a20a/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateTabsTrayWithOpenedTabTest" classname="org.mozilla.fenix.ui.SmokeTest" time="9.688">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.36efc9cf0a41a20a/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="147.953" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="openSelectionInNewTabTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="19.353">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e58861e50f8e7335/testcases/1</webLink>
+    </testcase>
+    <testcase name="mainMenuDesktopSiteTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.446">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e58861e50f8e7335/testcases/2</webLink>
+    </testcase>
+    <testcase name="searchScreenItemsTest" classname="org.mozilla.fenix.ui.SearchTest" time="3.548">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e58861e50f8e7335/testcases/3</webLink>
+    </testcase>
+    <testcase name="copyPDFTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="116.606">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.e58861e50f8e7335/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="91.192" timestamp="2023-04-14T15:11:31" hostname="localhost">
+    <testcase name="allowCookiesStorageAccessTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="35.705">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.59d52aee98758688/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyCreditCardsSectionTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="14.651">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.59d52aee98758688/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifySearchEnginesWithRTLLocale" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="25.259">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.59d52aee98758688/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyDataCollectionTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="15.577">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.59d52aee98758688/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="3" failures="0" flakes="0" errors="0" skipped="0" time="6.693" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="verifyRunBlockingAndStrictModeSuppresionCount" classname="org.mozilla.fenix.perf.StartupExcessiveResourceUseTest" time="2.379">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f3254e7fcda45e49/testcases/1</webLink>
+    </testcase>
+    <testcase name="testAllMessageTriggersAreValid" classname="org.mozilla.fenix.ui.NimbusMessagingTriggerTest" time="2.782">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f3254e7fcda45e49/testcases/2</webLink>
+    </testcase>
+    <testcase name="testBadTriggersAreDetected" classname="org.mozilla.fenix.ui.NimbusMessagingTriggerTest" time="1.532">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f3254e7fcda45e49/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="66.034" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="removeTabFromCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="18.978">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a66c50eace399b8f/testcases/1</webLink>
+    </testcase>
+    <testcase name="saveLoginFromPromptTest" classname="org.mozilla.fenix.ui.LoginsTest" time="14.009">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a66c50eace399b8f/testcases/2</webLink>
+    </testcase>
+    <testcase name="changeThemeSettingTest" classname="org.mozilla.fenix.ui.SettingsCustomizeTest" time="5.387">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a66c50eace399b8f/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyBasicNavigationToolbarFunctionality" classname="org.mozilla.fenix.ui.SmokeTest" time="27.660">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.a66c50eace399b8f/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="81.376" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="changeBookmarkParentFolderTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="16.331">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1c7bf3234054e81c/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddToFirefoxHome" classname="org.mozilla.fenix.ui.TopSitesTest" time="12.202">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1c7bf3234054e81c/testcases/2</webLink>
+    </testcase>
+    <testcase name="externalLinkPWATest" classname="org.mozilla.fenix.ui.PwaTest" time="32.433">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1c7bf3234054e81c/testcases/3</webLink>
+    </testcase>
+    <testcase name="mediaSystemNotificationInPrivateModeTest" classname="org.mozilla.fenix.ui.MediaNotificationTest" time="20.410">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1c7bf3234054e81c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="116.271" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="customizedTrackingProtectionOptionsTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="63.438">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.137e08ba7efb768e/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyCreditCardCannotBeSavedWithoutCardNumberTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.103">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.137e08ba7efb768e/testcases/2</webLink>
+    </testcase>
+    <testcase name="allowNotificationsPermissionPromptTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="22.867">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.137e08ba7efb768e/testcases/3</webLink>
+    </testcase>
+    <testcase name="notificationPermissionsItemsTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="12.863">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.137e08ba7efb768e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="57.897" timestamp="2023-04-14T15:11:31" hostname="localhost">
+    <testcase name="testSignInPageWithNoNetworkConnection" classname="org.mozilla.fenix.ui.NoNetworkAccessStartupTests" time="18.282">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfd3bf8331b6c3ae/testcases/1</webLink>
+    </testcase>
+    <testcase name="telephoneLinkTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="9.285">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfd3bf8331b6c3ae/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteSavedAddressTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="28.291">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfd3bf8331b6c3ae/testcases/3</webLink>
+    </testcase>
+    <testcase name="testAllMessageTriggers" classname="org.mozilla.fenix.ui.NimbusMessagingMessageTest" time="2.039">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cfd3bf8331b6c3ae/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="104.991" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="bookmarksMultiSelectionToolbarItemsTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="16.986">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c9e1585d2865e20f/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyRemoveTopSite" classname="org.mozilla.fenix.ui.TopSitesTest" time="47.004">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c9e1585d2865e20f/testcases/2</webLink>
+    </testcase>
+    <testcase name="startBrowsingButtonTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="12.430">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c9e1585d2865e20f/testcases/3</webLink>
+    </testcase>
+    <testcase name="goForwardTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="28.571">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c9e1585d2865e20f/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="183.856" timestamp="2023-04-14T15:13:11" hostname="localhost">
+    <testcase name="deleteAllHistoryTest" classname="org.mozilla.fenix.ui.HistoryTest" time="45.771">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.9e50dd2ed3098e9e/testcases/1</webLink>
+    </testcase>
+    <testcase name="httpsOnlyModeExceptionPersistsForCurrentSession" classname="org.mozilla.fenix.ui.SettingsHTTPSOnlyModeTest" time="71.179">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.9e50dd2ed3098e9e/testcases/2</webLink>
+    </testcase>
+    <testcase name="changeDefaultBrowserSetting" classname="org.mozilla.fenix.ui.SmokeTest" time="23.297">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.9e50dd2ed3098e9e/testcases/3</webLink>
+    </testcase>
+    <testcase name="openTotalCookieProtectionLearnMoreLinkTest" classname="org.mozilla.fenix.ui.ContextualHintsTest" time="43.609">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.9e50dd2ed3098e9e/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="299.162" timestamp="2023-04-14T15:11:43" hostname="localhost">
+    <testcase name="undoDeleteBookmarkFolderTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="19.151">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bac49fac9a4991/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyLoginWithoutPasswordCanNotBeSavedTest" classname="org.mozilla.fenix.ui.LoginsTest" time="26.959">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bac49fac9a4991/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyAboutFirefoxPreview" classname="org.mozilla.fenix.ui.SettingsAboutTest" time="210.942">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bac49fac9a4991/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyPrivateTabUndoSnackBarTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="42.110">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bac49fac9a4991/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="1" flakes="0" errors="0" skipped="0" time="151.838" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="verifyCookieBannerReductionInPrivateBrowsingTest" classname="org.mozilla.fenix.ui.CookieBannerReductionTest" time="113.865">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.mozilla.fenix.helpers.MatcherHelper.assertItemWithResIdExists(MatcherHelper.kt:51)
+	at org.mozilla.fenix.ui.robots.BrowserRobot.verifyCookieBannerExists(BrowserRobot.kt:1019)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionInPrivateBrowsingTest$3.invoke(CookieBannerReductionTest.kt:76)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionInPrivateBrowsingTest$3.invoke(CookieBannerReductionTest.kt:74)
+	at org.mozilla.fenix.ui.robots.NavigationToolbarRobot$Transition.enterURLAndEnterToBrowser(NavigationToolbarRobot.kt:140)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest.verifyCookieBannerReductionInPrivateBrowsingTest(CookieBannerReductionTest.kt:74)
+
+    </failure>
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.mozilla.fenix.helpers.MatcherHelper.assertItemWithResIdExists(MatcherHelper.kt:51)
+	at org.mozilla.fenix.ui.robots.BrowserRobot.verifyCookieBannerExists(BrowserRobot.kt:1019)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionInPrivateBrowsingTest$3.invoke(CookieBannerReductionTest.kt:76)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest$verifyCookieBannerReductionInPrivateBrowsingTest$3.invoke(CookieBannerReductionTest.kt:74)
+	at org.mozilla.fenix.ui.robots.NavigationToolbarRobot$Transition.enterURLAndEnterToBrowser(NavigationToolbarRobot.kt:140)
+	at org.mozilla.fenix.ui.CookieBannerReductionTest.verifyCookieBannerReductionInPrivateBrowsingTest(CookieBannerReductionTest.kt:74)
+
+    </failure>
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6f2744a119eaab8c/testcases/4</webLink>
+    </testcase>
+    <testcase name="cancelDeleteAllHistoryTest" classname="org.mozilla.fenix.ui.HistoryTest" time="10.796">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6f2744a119eaab8c/testcases/1</webLink>
+    </testcase>
+    <testcase name="httpsOnlyModeMenuItemsTest" classname="org.mozilla.fenix.ui.SettingsHTTPSOnlyModeTest" time="14.291">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6f2744a119eaab8c/testcases/2</webLink>
+    </testcase>
+    <testcase name="rememberBlockMicrophonePermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="12.886">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6f2744a119eaab8c/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="76.281" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="verifyHomepageSettingsTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="6.116">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ae73658619424171/testcases/1</webLink>
+    </testcase>
+    <testcase name="testETPOffGlobally" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="44.210">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ae73658619424171/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteSavedCreditCardUsingToolbarButtonTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.530">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ae73658619424171/testcases/3</webLink>
+    </testcase>
+    <testcase name="cameraPermissionChoiceOnEachRequestTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="8.425">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ae73658619424171/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="274.550" timestamp="2023-04-14T15:11:41" hostname="localhost">
+    <testcase name="deleteMultipleSelectionTest" classname="org.mozilla.fenix.ui.HistoryTest" time="46.123">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6eae918d820c3372/testcases/1</webLink>
+    </testcase>
+    <testcase name="httpsOnlyModeEnabledInNormalBrowsingTest" classname="org.mozilla.fenix.ui.SettingsHTTPSOnlyModeTest" time="69.207">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6eae918d820c3372/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteNonEmptyBookmarkFolderTest" classname="org.mozilla.fenix.ui.SmokeTest" time="71.460">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6eae918d820c3372/testcases/3</webLink>
+    </testcase>
+    <testcase name="dismissTotalCookieProtectionHintTest" classname="org.mozilla.fenix.ui.ContextualHintsTest" time="87.760">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.6eae918d820c3372/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="10" failures="0" flakes="0" errors="0" skipped="0" time="166.619" timestamp="2023-04-14T15:11:28" hostname="localhost">
+    <testcase name="changeSearchEnginesBasedOnTextTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="12.784">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/1</webLink>
+    </testcase>
+    <testcase name="blockSearchSuggestionsInPrivateModeOnboardingTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="26.810">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/2</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[0]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="18.796">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/3</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[1]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="17.397">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/4</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[2]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="21.103">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/5</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[3]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="19.262">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/6</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[4]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="11.422">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/7</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[5]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="16.039">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/8</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[6]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="12.525">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/9</webLink>
+    </testcase>
+    <testcase name="downloadMultipleFileTypesTest[7]" classname="org.mozilla.fenix.ui.DownloadFileTypesTest" time="10.481">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.669829ab4ce21da/testcases/10</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="69.985" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="shareCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="24.188">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4201862da38df2c/testcases/1</webLink>
+    </testcase>
+    <testcase name="neverSaveLoginFromPromptTest" classname="org.mozilla.fenix.ui.LoginsTest" time="15.286">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4201862da38df2c/testcases/2</webLink>
+    </testcase>
+    <testcase name="setToolbarPositionTest" classname="org.mozilla.fenix.ui.SettingsCustomizeTest" time="20.805">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4201862da38df2c/testcases/3</webLink>
+    </testcase>
+    <testcase name="tabMediaControlButtonTest" classname="org.mozilla.fenix.ui.SmokeTest" time="9.706">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d4201862da38df2c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="116.061" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="defaultDesktopBookmarksFoldersTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="6.598">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c83b78a07edfc7ae/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuSyncItemTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="10.802">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c83b78a07edfc7ae/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyNonReaderViewPageMenuNoDetection" classname="org.mozilla.fenix.ui.ReaderViewTest" time="25.887">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c83b78a07edfc7ae/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateHomeThreeDotMenuItemsTest" classname="org.mozilla.fenix.ui.ThreeDotMenuMainTest" time="72.774">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c83b78a07edfc7ae/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="150.271" timestamp="2023-04-14T15:12:36" hostname="localhost">
+    <testcase name="openAllTabsInCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="73.746">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.381ce3ca87b2ac70/testcases/1</webLink>
+    </testcase>
+    <testcase name="saveLoginsAndPasswordsOptionsItemsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="17.049">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.381ce3ca87b2ac70/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyOpenLinkInAppViewTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="30.439">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.381ce3ca87b2ac70/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewAppearanceUI" classname="org.mozilla.fenix.ui.SmokeTest" time="29.037">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.381ce3ca87b2ac70/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="94.541" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="verifyEditCardsViewTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.637">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d444dd6d2b9d82bb/testcases/1</webLink>
+    </testcase>
+    <testcase name="testDownloadCompleteNotification" classname="org.mozilla.fenix.ui.DownloadTest" time="14.432">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d444dd6d2b9d82bb/testcases/2</webLink>
+    </testcase>
+    <testcase name="toggleVoiceSearchTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="44.172">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d444dd6d2b9d82bb/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyStudiesToggleTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="18.300">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d444dd6d2b9d82bb/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="3" failures="0" flakes="0" errors="0" skipped="0" time="38.597" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="noNetworkConnectionStartupTest" classname="org.mozilla.fenix.ui.NoNetworkAccessStartupTests" time="15.002">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7878c0413389c180/testcases/1</webLink>
+    </testcase>
+    <testcase name="addPrivateBrowsingShortcutTest" classname="org.mozilla.fenix.ui.AddToHomeScreenTest" time="20.835">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7878c0413389c180/testcases/2</webLink>
+    </testcase>
+    <testcase name="testIndividualMessagesAreValid" classname="org.mozilla.fenix.ui.NimbusMessagingMessageTest" time="2.760">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7878c0413389c180/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="170.983" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="verifyShortcutOptionTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="70.734">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7cbb89965f453256/testcases/1</webLink>
+    </testcase>
+    <testcase name="defaultCustomTrackingProtectionSettingsTest" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="54.757">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7cbb89965f453256/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyCreditCardAutofillTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="36.360">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7cbb89965f453256/testcases/3</webLink>
+    </testcase>
+    <testcase name="audioVideoPermissionChoiceOnEachRequestTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="9.132">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.7cbb89965f453256/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="57.092" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="historyMultiSelectionToolbarItemsTest" classname="org.mozilla.fenix.ui.HistoryTest" time="14.241">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8e300da9a45a67e3/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyTabsOptionSummaryUpdatesTest" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="18.373">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8e300da9a45a67e3/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteRecentlyClosedTabsItemTest" classname="org.mozilla.fenix.ui.SmokeTest" time="15.688">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8e300da9a45a67e3/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextShareLink" classname="org.mozilla.fenix.ui.ContextMenusTest" time="8.790">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8e300da9a45a67e3/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="50.126" timestamp="2023-04-14T15:11:31" hostname="localhost">
+    <testcase name="shareButtonTest" classname="org.mozilla.fenix.ui.HistoryTest" time="14.879">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1d7495bb001ac9c6/testcases/1</webLink>
+    </testcase>
+    <testcase name="searchInLanguagesListTest" classname="org.mozilla.fenix.ui.SettingsGeneralTest" time="8.647">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1d7495bb001ac9c6/testcases/2</webLink>
+    </testcase>
+    <testcase name="goToHomeScreenTopToolbarPrivateModeTest" classname="org.mozilla.fenix.ui.SmokeTest" time="16.045">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1d7495bb001ac9c6/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextOpenImageNewTab" classname="org.mozilla.fenix.ui.ContextMenusTest" time="10.555">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1d7495bb001ac9c6/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="60.849" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="openBookmarkInNewTabTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="13.967">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d2fbe35836370a48/testcases/1</webLink>
+    </testcase>
+    <testcase name="mainMenuRefreshButtonTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.320">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d2fbe35836370a48/testcases/2</webLink>
+    </testcase>
+    <testcase name="scanButtonAllowPermissionTest" classname="org.mozilla.fenix.ui.SearchTest" time="6.609">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d2fbe35836370a48/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateSelectAndSearchPDFTextTest" classname="org.mozilla.fenix.ui.TextSelectionTest" time="31.953">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d2fbe35836370a48/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="94.989" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="startOnLastTabTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="28.437">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.dc13334a01bb40d6/testcases/1</webLink>
+    </testcase>
+    <testcase name="testETPSettingsItemsAndSubMenus" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="40.035">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.dc13334a01bb40d6/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteSavedCreditCardUsingMenuButtonTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.724">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.dc13334a01bb40d6/testcases/3</webLink>
+    </testcase>
+    <testcase name="microphonePermissionChoiceOnEachRequestTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="8.793">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.dc13334a01bb40d6/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="118.068" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="cancelEditBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="16.470">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2e5d93149f49e5f0/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyOpenTopSiteNormalTab" classname="org.mozilla.fenix.ui.TopSitesTest" time="17.279">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2e5d93149f49e5f0/testcases/2</webLink>
+    </testcase>
+    <testcase name="youControlYourDataCardTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="30.674">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2e5d93149f49e5f0/testcases/3</webLink>
+    </testcase>
+    <testcase name="findInPageTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="53.645">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2e5d93149f49e5f0/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="60.831" timestamp="2023-04-14T15:11:30" hostname="localhost">
+    <testcase name="verifyEmptyBookmarksMenuTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="4.422">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.da07097d2950c1e4/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyEditLoginsViewTest" classname="org.mozilla.fenix.ui.LoginsTest" time="18.802">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.da07097d2950c1e4/testcases/2</webLink>
+    </testcase>
+    <testcase name="useAddonsInPrivateModeTest" classname="org.mozilla.fenix.ui.SettingsAddonsTest" time="28.584">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.da07097d2950c1e4/testcases/3</webLink>
+    </testcase>
+    <testcase name="openNewPrivateTabTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="9.023">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.da07097d2950c1e4/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="74.852" timestamp="2023-04-14T15:11:38" hostname="localhost">
+    <testcase name="verifyDoNotSaveCreditCardFromFormTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="35.214">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.85f3f6d59b312162/testcases/1</webLink>
+    </testcase>
+    <testcase name="testDownloadPrompt" classname="org.mozilla.fenix.ui.DownloadTest" time="16.219">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.85f3f6d59b312162/testcases/2</webLink>
+    </testcase>
+    <testcase name="undoDeleteSearchEngineTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="6.316">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.85f3f6d59b312162/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyMarketingDataToggleTest" classname="org.mozilla.fenix.ui.SettingsPrivacyTest" time="17.103">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.85f3f6d59b312162/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="50.613" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="renameCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="23.908">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca753775ec8af9/testcases/1</webLink>
+    </testcase>
+    <testcase name="openWebsiteForSavedLoginTest" classname="org.mozilla.fenix.ui.LoginsTest" time="17.015">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca753775ec8af9/testcases/2</webLink>
+    </testcase>
+    <testcase name="pullToRefreshPreferenceTest" classname="org.mozilla.fenix.ui.SettingsCustomizeTest" time="4.694">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca753775ec8af9/testcases/3</webLink>
+    </testcase>
+    <testcase name="tabsSettingsMenuItemsTest" classname="org.mozilla.fenix.ui.SmokeTest" time="4.996">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ca753775ec8af9/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="103.467" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="undoDeleteMultipleSelectionTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="26.420">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.556ff053198be154/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyLastUsedLoginSortingOptionTest" classname="org.mozilla.fenix.ui.LoginsTest" time="47.094">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.556ff053198be154/testcases/2</webLink>
+    </testcase>
+    <testcase name="installAddonTest" classname="org.mozilla.fenix.ui.SettingsAddonsTest" time="26.513">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.556ff053198be154/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyEmptyTabTray" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="3.440">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.556ff053198be154/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="153.346" timestamp="2023-04-14T15:12:10" hostname="localhost">
+    <testcase name="verifyMultipleCreditCardsCanBeSavedTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="75.738">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.634454a293b4c7a3/testcases/1</webLink>
+    </testcase>
+    <testcase name="openPDFInBrowserTest" classname="org.mozilla.fenix.ui.DownloadTest" time="19.395">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.634454a293b4c7a3/testcases/2</webLink>
+    </testcase>
+    <testcase name="selectNewDefaultSearchEngine" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="11.472">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.634454a293b4c7a3/testcases/3</webLink>
+    </testcase>
+    <testcase name="launchPageShortcutInPrivateModeTest" classname="org.mozilla.fenix.ui.SettingsPrivateBrowsingTest" time="46.741">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.634454a293b4c7a3/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="138.842" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="customTabsOpenExternalLinkTest" classname="org.mozilla.fenix.ui.CustomTabsTest" time="25.709">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f31aa50e2bb8b2bc/testcases/1</webLink>
+    </testcase>
+    <testcase name="customTabCopyToolbarUrlTest" classname="org.mozilla.fenix.ui.CustomTabsTest" time="86.094">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f31aa50e2bb8b2bc/testcases/2</webLink>
+    </testcase>
+    <testcase name="deleteDefaultSearchEngineTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="5.616">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f31aa50e2bb8b2bc/testcases/3</webLink>
+    </testcase>
+    <testcase name="addPredefinedSearchEngineTest" classname="org.mozilla.fenix.ui.SettingsSearchTest" time="21.423">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f31aa50e2bb8b2bc/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="101.657" timestamp="2023-04-14T15:11:22" hostname="localhost">
+    <testcase name="navigateBackInCollectionFlowTest" classname="org.mozilla.fenix.ui.CollectionTest" time="25.431">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ddbd0f03367564/testcases/1</webLink>
+    </testcase>
+    <testcase name="savedLoginsMenuItemsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="7.991">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ddbd0f03367564/testcases/2</webLink>
+    </testcase>
+    <testcase name="defaultSearchEngineIsNotDisplayedAsSponsoredShortcutTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="48.383">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ddbd0f03367564/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyOpenLinkInAppViewInPrivateBrowsingTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="19.852">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.ddbd0f03367564/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="3" failures="0" flakes="0" errors="0" skipped="0" time="64.321" timestamp="2023-04-14T15:11:38" hostname="localhost">
+    <testcase name="networkInterruptedFromBrowserToHomeTest" classname="org.mozilla.fenix.ui.NoNetworkAccessStartupTests" time="27.380">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2f94e547c907b367/testcases/1</webLink>
+    </testcase>
+    <testcase name="testShowingNotificationMessage" classname="org.mozilla.fenix.ui.NimbusMessagingNotificationTest" time="11.827">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2f94e547c907b367/testcases/2</webLink>
+    </testcase>
+    <testcase name="addPDFToHomeScreenTest" classname="org.mozilla.fenix.ui.AddToHomeScreenTest" time="25.114">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2f94e547c907b367/testcases/3</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="55.100" timestamp="2023-04-14T15:11:26" hostname="localhost">
+    <testcase name="threeDotMenuShareBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="12.098">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bbea41559cac50bd/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyMultipleLoginsSelectionsTest" classname="org.mozilla.fenix.ui.LoginsTest" time="18.011">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bbea41559cac50bd/testcases/2</webLink>
+    </testcase>
+    <testcase name="settingsAboutItemsTest" classname="org.mozilla.fenix.ui.SettingsAboutTest" time="21.715">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bbea41559cac50bd/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyTabTrayNotShowingStateHalfExpanded" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="3.276">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bbea41559cac50bd/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="92.340" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="deleteBookmarkTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="11.128">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cbb6b0b2c67964a2/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuNewTabItemTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="8.125">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cbb6b0b2c67964a2/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewAppearanceFontSizeToggle" classname="org.mozilla.fenix.ui.ReaderViewTest" time="11.579">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cbb6b0b2c67964a2/testcases/3</webLink>
+    </testcase>
+    <testcase name="homeThreeDotMenuItemsTest" classname="org.mozilla.fenix.ui.ThreeDotMenuMainTest" time="61.508">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cbb6b0b2c67964a2/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="120.434" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="mainMenuSaveToExistingCollection" classname="org.mozilla.fenix.ui.CollectionTest" time="25.505">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.78d61cd94e12b350/testcases/1</webLink>
+    </testcase>
+    <testcase name="searchLoginsByUrlTest" classname="org.mozilla.fenix.ui.LoginsTest" time="48.102">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.78d61cd94e12b350/testcases/2</webLink>
+    </testcase>
+    <testcase name="openSponsoredShortcutInPrivateBrowsingTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="10.506">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.78d61cd94e12b350/testcases/3</webLink>
+    </testcase>
+    <testcase name="settingsAdvancedItemsTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="36.321">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.78d61cd94e12b350/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="150.429" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="deleteHistoryItemTest" classname="org.mozilla.fenix.ui.HistoryTest" time="10.794">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.92f788c358da3814/testcases/1</webLink>
+    </testcase>
+    <testcase name="httpsOnlyModeEnabledOnlyInPrivateBrowsingTest" classname="org.mozilla.fenix.ui.SettingsHTTPSOnlyModeTest" time="75.215">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.92f788c358da3814/testcases/2</webLink>
+    </testcase>
+    <testcase name="customTabMenuItemsTest" classname="org.mozilla.fenix.ui.SmokeTest" time="8.991">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.92f788c358da3814/testcases/3</webLink>
+    </testcase>
+    <testcase name="jumpBackInCFRTest" classname="org.mozilla.fenix.ui.ContextualHintsTest" time="55.429">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.92f788c358da3814/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="133.915" timestamp="2023-04-14T15:11:31" hostname="localhost">
+    <testcase name="deleteBookmarkInEditModeTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="38.175">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d49cd093f1fad956/testcases/1</webLink>
+    </testcase>
+    <testcase name="openMainMenuSettingsItemTest" classname="org.mozilla.fenix.ui.MainMenuTest" time="24.222">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d49cd093f1fad956/testcases/2</webLink>
+    </testcase>
+    <testcase name="verifyReaderViewAppearanceColorSchemeChange" classname="org.mozilla.fenix.ui.ReaderViewTest" time="10.858">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d49cd093f1fad956/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateBrowsingSetDesktopSiteBeforePageLoadTest" classname="org.mozilla.fenix.ui.ThreeDotMenuMainTest" time="60.660">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.d49cd093f1fad956/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="108.386" timestamp="2023-04-14T15:11:27" hostname="localhost">
+    <testcase name="verifyBookmarkButtonTest" classname="org.mozilla.fenix.ui.BookmarksTest" time="8.333">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.530902c2ef1ed9f4/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyEditedLoginsAreSavedTest" classname="org.mozilla.fenix.ui.LoginsTest" time="39.207">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.530902c2ef1ed9f4/testcases/2</webLink>
+    </testcase>
+    <testcase name="noCrashWithAddonInstalledTest" classname="org.mozilla.fenix.ui.SettingsAddonsTest" time="29.698">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.530902c2ef1ed9f4/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextMenuShortcuts" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="31.148">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.530902c2ef1ed9f4/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="47.140" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="testPageReloadAfterNetworkInterrupted" classname="org.mozilla.fenix.ui.NoNetworkAccessStartupTests" time="17.677">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f9bc61ac42d0949c/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyDropdownMenuTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="8.790">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f9bc61ac42d0949c/testcases/2</webLink>
+    </testcase>
+    <testcase name="mainMenuAddToHomeScreenTest" classname="org.mozilla.fenix.ui.AddToHomeScreenTest" time="19.021">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f9bc61ac42d0949c/testcases/3</webLink>
+    </testcase>
+    <testcase name="testAllMessagesAreLocalized" classname="org.mozilla.fenix.ui.NimbusMessagingMessageTest" time="1.652">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f9bc61ac42d0949c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="76.846" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="setAndClearCalendarFormTest" classname="org.mozilla.fenix.ui.WebControlsTest" time="26.888">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c1979cb17df6cac/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddressAutofillTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="44.368">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c1979cb17df6cac/testcases/2</webLink>
+    </testcase>
+    <testcase name="telemetryAccountObserverTest" classname="org.mozilla.fenix.ui.NimbusEventTest" time="1.492">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c1979cb17df6cac/testcases/3</webLink>
+    </testcase>
+    <testcase name="chooseYourThemeCardTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="4.098">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.c1979cb17df6cac/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="99.711" timestamp="2023-04-14T15:11:29" hostname="localhost">
+    <testcase name="verifySavedAddressCanBeEditedTest" classname="org.mozilla.fenix.ui.AddressAutofillTest" time="60.668">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.222981539bff86b3/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyUndoRemoveTopSite" classname="org.mozilla.fenix.ui.TopSitesTest" time="16.298">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.222981539bff86b3/testcases/2</webLink>
+    </testcase>
+    <testcase name="pickUpWhereYouLeftOffCardTest" classname="org.mozilla.fenix.ui.OnboardingTest" time="11.465">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.222981539bff86b3/testcases/3</webLink>
+    </testcase>
+    <testcase name="swipeToSwitchTabTest" classname="org.mozilla.fenix.ui.NavigationToolbarTest" time="11.280">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.222981539bff86b3/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="105.161" timestamp="2023-04-14T15:11:22" hostname="localhost">
+    <testcase name="ignoreStartOnHomeWhenLaunchedByExternalLinkTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="9.455">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cb1df1465bb675f1/testcases/1</webLink>
+    </testcase>
+    <testcase name="closeTabCrashedReporterTest" classname="org.mozilla.fenix.ui.CrashReportingTest" time="25.947">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cb1df1465bb675f1/testcases/2</webLink>
+    </testcase>
+    <testcase name="testTrackingContentBlockedOnlyInPrivateTabs" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="60.221">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cb1df1465bb675f1/testcases/3</webLink>
+    </testcase>
+    <testcase name="rememberBlockAudioVideoPermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="9.538">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.cb1df1465bb675f1/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="58.890" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="verifyDeleteLoginButtonTest" classname="org.mozilla.fenix.ui.LoginsTest" time="19.097">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f583ad674950ebea/testcases/1</webLink>
+    </testcase>
+    <testcase name="verifyAddonsCanBeUninstalled" classname="org.mozilla.fenix.ui.SettingsAddonsTest" time="26.387">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f583ad674950ebea/testcases/2</webLink>
+    </testcase>
+    <testcase name="blockHarmfulPageTest" classname="org.mozilla.fenix.ui.BrowsingErrorPagesTest" time="5.816">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f583ad674950ebea/testcases/3</webLink>
+    </testcase>
+    <testcase name="closePrivateTabsNotificationTest" classname="org.mozilla.fenix.ui.TabbedBrowsingTest" time="7.590">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.f583ad674950ebea/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="117.312" timestamp="2023-04-14T15:11:24" hostname="localhost">
+    <testcase name="deleteCollectionTest" classname="org.mozilla.fenix.ui.CollectionTest" time="18.893">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8c1591e55c769a7d/testcases/1</webLink>
+    </testcase>
+    <testcase name="searchLoginsByUsernameTest" classname="org.mozilla.fenix.ui.LoginsTest" time="53.535">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8c1591e55c769a7d/testcases/2</webLink>
+    </testcase>
+    <testcase name="openSponsoredShortcutTest" classname="org.mozilla.fenix.ui.SponsoredShortcutsTest" time="6.574">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8c1591e55c769a7d/testcases/3</webLink>
+    </testcase>
+    <testcase name="privateBrowsingNeverOpenLinkInAppTest" classname="org.mozilla.fenix.ui.SettingsAdvancedTest" time="38.310">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.8c1591e55c769a7d/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="67.244" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="startOnHomepageTest" classname="org.mozilla.fenix.ui.SettingsHomepageTest" time="13.018">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc300464248e5c2/testcases/1</webLink>
+    </testcase>
+    <testcase name="testETPSettingsSummaryChange" classname="org.mozilla.fenix.ui.EnhancedTrackingProtectionTest" time="25.319">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc300464248e5c2/testcases/2</webLink>
+    </testcase>
+    <testcase name="cancelDeleteSavedCreditCardUsingToolbarButtonTest" classname="org.mozilla.fenix.ui.CreditCardAutofillTest" time="17.287">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc300464248e5c2/testcases/3</webLink>
+    </testcase>
+    <testcase name="rememberAllowAudioVideoPermissionChoiceTest" classname="org.mozilla.fenix.ui.SitePermissionsTest" time="11.620">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.bc300464248e5c2/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="101.163" timestamp="2023-04-14T15:11:25" hostname="localhost">
+    <testcase name="deleteTabsDataTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="54.118">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2594a560ab250c/testcases/1</webLink>
+    </testcase>
+    <testcase name="privateModeScreenItemsTest" classname="org.mozilla.fenix.ui.HomeScreenTest" time="8.556">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2594a560ab250c/testcases/2</webLink>
+    </testcase>
+    <testcase name="noHistoryInPrivateBrowsingTest" classname="org.mozilla.fenix.ui.SmokeTest" time="11.416">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2594a560ab250c/testcases/3</webLink>
+    </testcase>
+    <testcase name="verifyContextCopyImageLocation" classname="org.mozilla.fenix.ui.ContextMenusTest" time="27.073">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.1b2594a560ab250c/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixel2.arm-30-en_US-portrait" tests="4" failures="0" flakes="0" errors="0" skipped="0" time="144.659" timestamp="2023-04-14T15:11:23" hostname="localhost">
+    <testcase name="verifyExpandedCollectionItemsTest" classname="org.mozilla.fenix.ui.CollectionTest" time="60.868">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2720745798348904/testcases/1</webLink>
+    </testcase>
+    <testcase name="deleteCookiesTest" classname="org.mozilla.fenix.ui.SettingsDeleteBrowsingDataTest" time="56.416">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2720745798348904/testcases/2</webLink>
+    </testcase>
+    <testcase name="selectStoriesByTopicItemTest" classname="org.mozilla.fenix.ui.HomeScreenTest" time="16.764">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2720745798348904/testcases/3</webLink>
+    </testcase>
+    <testcase name="openCustomTabInBrowserTest" classname="org.mozilla.fenix.ui.SmokeTest" time="10.611">
+      <webLink>https://console.firebase.google.com/project/moz-fenix/testlab/histories/bh.66b7091e15d53d45/matrices/6678608136848600660/executions/bs.2720745798348904/testcases/4</webLink>
+    </testcase>
+  </testsuite>
+</testsuites>
